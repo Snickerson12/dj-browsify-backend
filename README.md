@@ -1,24 +1,11 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+To run locally:
+Run bundle exec rails s -p 3001
 
-Things you may want to cover:
+Create user in rails c with an email string
+In front end browser console, create a corresponding user to match newly created db user:
+  window.sessionStorage.username
+  window.sessionsStorage.email
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+This should allow you to upload songs and assign them to your session user
